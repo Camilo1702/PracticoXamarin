@@ -1,4 +1,5 @@
 ﻿using System;
+using AppCountry.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace AppCountry
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new CountryPage();
         }
 
         protected override void OnStart()
